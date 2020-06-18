@@ -24,7 +24,7 @@ public class SetterDemoApp {
 		 * */
 		
 		//call new methods to get the literal values
-		System.out.println(theCoach.getEmailAdress()); 
+		System.out.println(theCoach.getEmailAddress()); 
 		
 		System.out.println(theCoach.getTeam()); 
 

@@ -5,7 +5,7 @@ public class CricketCoach implements Coach {
 	private FortuneService fortuneService;
 	
 	//create fields para literal value injection
-	private String emailAdress; 
+	private String emailAddress; 
 	private String team; 
 	
 
@@ -23,9 +23,9 @@ public class CricketCoach implements Coach {
 
 
 	//Setters para literal value injections
-	public void setEmailAdress(String emailAdress) {
+	public void setEmailAddress(String emailAdress) {
 		System.out.println("CricketCoach: dentro de setter method -  setEmailAdress");
-		this.emailAdress = emailAdress;
+		this.emailAddress = emailAdress;
 	}
 
 	public void setTeam(String team) {
@@ -35,8 +35,8 @@ public class CricketCoach implements Coach {
 	
 	
 	
-	public String getEmailAdress() {
-		return emailAdress;
+	public String getEmailAddress() {
+		return emailAddress;
 	}
 
 	public String getTeam() {
