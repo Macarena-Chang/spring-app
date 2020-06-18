@@ -22,7 +22,15 @@
  		<constructor-arg ref="myFortuneService" />
  	</bean>
     
-
+	<bean id="myCricketCoach"
+		class="com.website.springdemo.CricketCoach">
+		
+		<!--  Set up setter injection -->
+		<property name="fortuneService" ref="myFortuneService" />
+		<!--  Set up literal value injection -->
+		<property name="emailAdress" value="maca@mail.com" />
+		<property name="team" value="Coffee Team" />
+	</bean>
 </beans>
 
 
